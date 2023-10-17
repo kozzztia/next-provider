@@ -109,6 +109,16 @@ li {
 }
 .nav{
   background-color: var(--nav-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .header,.nav,.footer{
   min-height: var(--header-nav-footer-height);
